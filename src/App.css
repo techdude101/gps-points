@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  text-align: center;
+  width: 50%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 90%;
+  }
+}
+
+.app-header {
+  padding: 1em;
+}

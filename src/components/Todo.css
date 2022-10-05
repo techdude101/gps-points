@@ -1,0 +1,44 @@
+.todo-li {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
+
+.todo-li:hover,
+.todo-li:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.todo-text {
+    color: black;
+    text-align: left;
+}
+
+.todo-text__complete {
+    text-decoration: line-through;
+    font-style: oblique;
+}
+
+.todo-icons {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.todo-delete {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.todo-delete:hover {
+    cursor: pointer;
+}
+
+.todo-complete {
+    color: green;
+}
+
+.todo-complete:hover {
+    cursor: pointer;
+}

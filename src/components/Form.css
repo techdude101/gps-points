@@ -1,0 +1,18 @@
+.form {
+    padding: 1em;
+}
+
+.form * {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.form-input {
+    text-align: center;
+}
+
+.form-button {
+    margin-left: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
