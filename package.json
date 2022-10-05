@@ -1,7 +1,8 @@
 {
-  "name": "gps-list",
+  "name": "gps-points",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://techdude101.github.io/gps-points",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
